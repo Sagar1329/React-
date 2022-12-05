@@ -1,13 +1,13 @@
 
-const Header = ({title}) => {
+const Header = ({ title }) => {
   return (
     <header>
-<h1>{title}</h1>
+      <h1>{title}</h1>
     </header>
   )
 }
 
-Header.defaultProps={
-  title:"NO NAME LOWDA"
+Header.defaultProps = {
+  title: "NO NAME LOWDA"
 }
 export default Header
